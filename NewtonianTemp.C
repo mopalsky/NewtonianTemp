@@ -65,7 +65,7 @@ Foam::viscosityModels::NewtonianTemp::NewtonianTemp
     //calkowicie zmieniono
     viscosityModel(name, viscosityProperties, U, phi),
     //nu0_("nu", dimViscosity, viscosityProperties_),
-    //dodabni wsp wielomianu, wielomian based
+    //dodatni wsp wielomianu, wielomian based
     c0_("c0", dimViscosity, viscosityProperties_),
     c1_("c1", dimViscosity/dimTemperature, viscosityProperties_),
     c2_("c2", dimViscosity/dimTemperature/dimTemperature, viscosityProperties_),

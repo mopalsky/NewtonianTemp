@@ -110,7 +110,7 @@ public:
         }
 
         //- Correct the laminar viscosity (not appropriate, viscosity constant)
-        //zmieniono to bo inaczej nie updatuje
+        //zmieniono to bo inaczej nie updatuje i nie liczy
         virtual void correct()
         {
             //dodano
