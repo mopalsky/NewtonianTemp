@@ -90,7 +90,7 @@ bool Foam::viscosityModels::NewtonianTemp::read(
 {
     viscosityModel::read(viscosityProperties);
     //dodano
-    viscosityProperties_ = viscosityProperties.optionalSubDict(typeName + "Coeffs");
+    //viscosityProperties_ = viscosityProperties.optionalSubDict(typeName + "Coeffs");
     NewtonianCoe_.readEntry("c0", c0_);
     NewtonianCoe_.readEntry("c0", c1_);
     NewtonianCoe_.readEntry("c0", c2_);
